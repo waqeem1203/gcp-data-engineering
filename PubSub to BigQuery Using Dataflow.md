@@ -217,6 +217,18 @@ for i in asset_data:
 
 print(f"Published messages to {topic_path} at {str(DT.datetime.utcnow())}.")
 ```
+This script was run at 23:24 UTC.
 
-![image](https://user-images.githubusercontent.com/50084105/234135475-d98d40bf-46c7-4590-8ba1-75024a1fa3dd.png)
+![image](https://user-images.githubusercontent.com/50084105/234136633-fafa4ea3-b9b4-4fcc-85f6-d5fa9f2276b5.png)
+
+You can run this query to see the latest entry in the BigQuery table.
+![image](https://user-images.githubusercontent.com/50084105/234137227-9752cd22-5dc1-4b0e-91ec-1311f93604fd.png)
+
+## Step 7: Cleaning up
+
+Once you're done with the tutorial make sure you delete all the resources you create, so that you don't get unexpected costs.
+
+
+
+
 
