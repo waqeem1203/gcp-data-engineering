@@ -179,5 +179,9 @@ Note:
 
 ![image](https://user-images.githubusercontent.com/50084105/234118429-246c3d58-6c85-49c2-aa89-a4ed592e2538.png)
 
+## Step 5: Cleaning up
+
+Once you're done with the tutorial make sure you delete all the resources you create, so that you don't get unexpected costs.
+
 
 
