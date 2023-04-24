@@ -10,7 +10,7 @@ This tutorial writes data uploaded to a Cloud Storage bucket to BigQuery, moves 
 
 ## Step 1: Creating your buckets
 
-You can create a bucket using this [tutorial](https://cloud.google.com/storage/docs/creating-buckets) from Google. You will need to create two buckets.
+You can create a bucket using this [tutorial](https://cloud.google.com/storage/docs/creating-buckets) from Google. You will need to create one Standard bucket (this will be your primary bucket) and one Coldline bucket. You will be transferring the files to the cold bucket to save on storage costs.
 
 ## Step 2: Create a Dataproc Cluster
 
@@ -182,6 +182,9 @@ The files are now in the secondary bucket.
 
 ![image](https://user-images.githubusercontent.com/50084105/234127470-1fee3d8a-29e4-459d-b16b-c6c1d9d1e77a.png)
 
+## Step 5: Cleaning up
+
+Once you're done with the tutorial make sure you delete all the resources you create, so that you don't get unexpected costs.
 
 
 
