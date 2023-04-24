@@ -182,7 +182,7 @@ The files are now in the secondary bucket.
 
 ![image](https://user-images.githubusercontent.com/50084105/234127470-1fee3d8a-29e4-459d-b16b-c6c1d9d1e77a.png)
 
-## Step 5: Cleaning up
+## Step 6: Cleaning up
 
 Once you're done with the tutorial make sure you delete all the resources you create, so that you don't get unexpected costs.
 
