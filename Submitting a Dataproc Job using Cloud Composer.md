@@ -108,13 +108,15 @@ Give it a name, select a location and image. Note: Not all zones will have an im
 
 Composer takes a while to set up. Once it is complete it will look like this.
 
+![image](https://user-images.githubusercontent.com/50084105/234132460-b698227a-f322-4e06-b557-603b65c95494.png)
+
 ## Step 6: Uploading the DAG File
 
 Open the environment and click `Open DAGS Folder`
 
 ![image](https://user-images.githubusercontent.com/50084105/234130576-eb041a17-b9e3-4865-8cdc-939308755acf.png)
 
-Upload this script to the bucket.
+Upload this script to the bucket as a python file.
 
 ```
 
