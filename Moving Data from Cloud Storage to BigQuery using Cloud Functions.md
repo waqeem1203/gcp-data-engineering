@@ -105,7 +105,7 @@ You will get a screen like this when the function is deployed.
 
 ![image](https://user-images.githubusercontent.com/50084105/234116518-356a0163-5268-4efe-bbe2-3ae2091f69ca.png)
 
-Run the code below to upload a parquet file to your cloud storage bucket.
+Run the code below to upload a parquet file to your cloud storage bucket. You will need a service account and download the [keys](https://github.com/waqeem1203/gcp-data-engineering/blob/main/Create%20a%20Service%20Account.md) to run this script.
 
 ```
 from google.cloud import storage
@@ -172,7 +172,10 @@ In the cloud function logs we can see that the function was triggered and had su
 ![image](https://user-images.githubusercontent.com/50084105/234117737-091cf658-c7b0-4537-aef7-9da5b25d1748.png)
 
 To verify this we can check `Last modified` on the details page of the BigQuery table.
-Note: The cloud function creates a table for the directory the file is stored in. In this example the name of the directory is `asset-exchange-rate-history`. If no table with the name had existed in the schema, cloud functions would have created the table instead. This is why the two timestamps are the same. This function only works for a single level directory. i.e `bucket/directory1/file` will work but `bucket/directory1/directory2/file` will fail.
+Note: 
+1. The cloud function creates a table for the directory the file is stored in. In this example the name of the directory is `asset-exchange-rate-history`. 
+2. If no table with the name had existed in the schema, cloud functions would have created the table instead. This is why the timestamps in the screenshot below are the same. 
+3. This function only works for a single level directory. i.e `bucket/directory1/file` will work but `bucket/directory1/directory2/file` will fail.
 
 ![image](https://user-images.githubusercontent.com/50084105/234118429-246c3d58-6c85-49c2-aa89-a4ed592e2538.png)
 
