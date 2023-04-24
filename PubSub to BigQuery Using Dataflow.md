@@ -222,7 +222,7 @@ This script was run at 23:24 UTC.
 
 ![image](https://user-images.githubusercontent.com/50084105/234136633-fafa4ea3-b9b4-4fcc-85f6-d5fa9f2276b5.png)
 
-You can run this query to see the latest entry in the BigQuery table.
+You can run this query to see the latest entry in the BigQuery table, this matches the upload time of the script.
 
 ![image](https://user-images.githubusercontent.com/50084105/234137227-9752cd22-5dc1-4b0e-91ec-1311f93604fd.png)
 
