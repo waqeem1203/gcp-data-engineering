@@ -1,4 +1,4 @@
-# Move Data from PubSub to BigQuery using Cloud DataFlow 
+# Streaming data pipeline from PubSub to BigQuery using Cloud DataFlow 
 
 Data will be streamed from the CoinCap API to PubSub. This data will be written to a BigQuery table using Cloud DataFlow.
 
